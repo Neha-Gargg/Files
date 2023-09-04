@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//MAXIMUM ELEMENT
+//Ques1 MAXIMUM ELEMENT
  void max(int arr[],int n) {
        for(int i=0;i<n;i++){
            for(int j=0;j<n;j++){
@@ -20,7 +20,7 @@ int main(){
    return 0;
 }
 
-//MINIMUM ELEMENT
+//Ques2 MINIMUM ELEMENT
 void min(int arr[],int n) {
        for(int i=0;i<n;i++){
            for(int j=0;j<n;j++){
@@ -38,7 +38,7 @@ int main(){
    return 0;
 }
 
-//SUM OF ARRAY
+//Ques3 SUM OF ARRAY
 void sum(int arr[],int n){
     int sum=0;
     for(int i=0;i<n;i++){
@@ -54,7 +54,7 @@ int main()
    return 0;
 }
 
-//LINEAR SEARCH
+//Ques4 LINEAR SEARCH
 void search(int arr[],int n,int key){
     int flag=0;
     for(int i=0;i<n;i++){
@@ -79,7 +79,7 @@ int main()
    return 0;
 }
 
-//BINARY SEARCH
+//Ques5 BINARY SEARCH
 int binarysearch(int arr[],int size,int key){
     int start=0;
     int end=size-1;
@@ -109,7 +109,7 @@ int main()
    return 0;
 }
 
-//REVERSE AN ARRAY
+//Ques6 REVERSE AN ARRAY
 void rev(int arr[],int size){
     int start=0;
     int end=size-1;
@@ -130,7 +130,7 @@ int main()
    return 0;
 }
 
-//SHIFT ALL NEGATIVE ELEMENTS TO LEFT
+//Ques7 SHIFT ALL NEGATIVE ELEMENTS TO LEFT
 void negleft(int arr[],int size){
     int start=0;
     int end=size-1;
